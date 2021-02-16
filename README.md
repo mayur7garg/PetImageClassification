@@ -17,6 +17,10 @@ The external libraries required for running _**Train.ipynb**_ are:
 4. tensorflow (Version 2.3.0 preferred)
 5. tqdm
 
+**NOTE:** The model and tensorboard directories have been removed from the project due to GitHub's individual file size constraints. Kindly run _**Train.ipynb**_ to generate the model and the tensorboard logs.
+
+After running _**Train.ipynb**_, use the command _**tensorboard --logdir tensorboard_logs/fit**_ using the command line from the project's root directory to open the TensorBoard GUI in your browser.
+
 > Make sure to update the _**BASE_PATH**_ constant in _**Train.ipynb**_ to reflect the location where your dataset is stored.
 
 > Developed by - Mayur Garg
