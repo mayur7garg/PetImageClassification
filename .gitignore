@@ -1,0 +1,4 @@
+.ipynb_checkpoints/Train-checkpoint.ipynb
+.vscode/settings.json
+tensorboard_logs/
+models/
