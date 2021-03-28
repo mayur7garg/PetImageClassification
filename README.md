@@ -1,15 +1,25 @@
 # Pet Image Classification
 
-### Image classification using CNN in tf.keras for Oxford IIIT Pet image dataset.
+## Image classification using CNN in tf.keras for Oxford IIIT Pet image dataset.
 
-#### Dataset
+### Dataset
 The dataset for this project can be downloaded from any of the following links:
 * [Visual Geometry Group - University of Oxford](https://www.robots.ox.ac.uk/~vgg/data/pets/)
 * [Kaggle](https://www.kaggle.com/tanlikesmath/the-oxfordiiit-pet-dataset)
 
 This dataset consists of 7390 images of pets spanning 37 classes with about 200 images per class. The images vary vastly in size, aspect ratio, pose, lightning, etc.
 
-#### Project Requirements
+### Metrics
+
+|                               | Train | Validation | Test  |
+|-------------------------------|-------|------------|-------|
+| **Count of Records**          | 5985  | 666        | 739   |
+| **Categorical Cross-entropy** | 0.687 | 1.10       | 1.13  |
+| **Categorical Accuracy**      | 77.9% | 66.8%      | 64.8% |
+
+&nbsp;
+
+### Project Requirements
 The external libraries required for running _**Train.ipynb**_ are:
 1. numpy
 2. matplotlib
@@ -17,11 +27,11 @@ The external libraries required for running _**Train.ipynb**_ are:
 4. tensorflow (Version 2.3.0 preferred)
 5. tqdm
 
-#### TensorBoard
+### TensorBoard
 
 Use the command _**tensorboard --logdir tensorboard_logs/fit**_ using the command line from the project's root directory to open the TensorBoard GUI in your browser.
 
 ### Notes
-1. Make sure to update the _**BASE_PATH**_ constant in _**Train.ipynb**_ to reflect the location where your dataset is stored.
+- Make sure to update the _**BASE_PATH**_ constant in _**Train.ipynb**_ to reflect the location where your dataset is stored.
 
 > Developed by - Mayur Garg
