@@ -2,6 +2,11 @@
 
 **Image classification using Deep CNN in tensorflow.keras for Oxford IIIT Pet image dataset.**
 
+## Explanation Video
+[![Pet Image Classification](https://img.youtube.com/vi/I33lCmp-D1E/0.jpg "Pet Image Classification using CNN in tf.keras - Project showcase")](https://www.youtube.com/watch?v=I33lCmp-D1E)
+
+Click on the image link above to redirect to the YouTube video.
+
 ## Dataset
 The dataset for this project can be downloaded from any of the following links:
 * [Visual Geometry Group - University of Oxford](https://www.robots.ox.ac.uk/~vgg/data/pets/)
@@ -37,14 +42,14 @@ The different layers used in this model are as follows:
 
 The model makes sure of **Early Stopping** and **Tensorboard** callbacks to prevent overfitting and monitor training respectively.
 
-### Structure
-![Model Structure](./plots/model.jpg)
+### Model Structure
+![Model Structure](./plots/model.jpg "Model Structure")
 
 ### Accuracy and Loss
-![Model Structure](./plots/acc_and_loss.jpg)
+![Accuracy and Loss](./plots/acc_and_loss.jpg "Accuracy and Loss")
 
 ### Confusion Matrix for Validation data
-![Model Structure](./plots/confusion_matrix.jpg)
+![Confusion Matrix](./plots/confusion_matrix.jpg "Confusion Matrix")
 
 ### Metrics
 
